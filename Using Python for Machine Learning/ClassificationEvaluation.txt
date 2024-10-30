@@ -3,3 +3,16 @@
 % Jaccard Index
 
 J(A, B) = \frac{|A \cap B|}{|A \cup B|}
+
+checks the union between the predicteed and actual labels
+
+
+Can use F1-Score, matrix score to see the number of FP,TP, etc.
+Precision = TP/TP+FP
+Recall = TP/(TP + FN)
+F1 Score = 2x(prcxrec)/(prc+rec)
+higher the better
+
+
+Log Loss
+performance classifier where the predicted output is a probability value between 0 and 1
